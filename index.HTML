@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .pricing-container {
+            max-width: 1200px;
+            margin: 50px auto;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .pricing-plan {
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px;
+            width: 300px;
+            text-align: center;
+        
+        }
+.pricing-plan:hover{
+    transform: scale(1.1);
+    transition: ease;
+}
+        .pricing-plan h2 {
+            color: #333;
+        }
+
+        .pricing-plan ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .pricing-plan li {
+            margin-bottom: 10px;
+        }
+
+        .pricing-plan button {
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .pricing-plan {
+                width: 100%;
+            }
+        }
+        .img{
+            height:100px ;
+        }
+        .spani{
+            font-size: xx-large;
+        }
+    </style>
+    <title>Pricing</title>
+</head>
+<body>
+    <header>
+<img src="./price-too-low-e1473775786685.jpg" class="img"/>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Pricing</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="pricing-container">
+        <div class="pricing-plan">
+            <h2>Basic 
+               <span class="spani"> $39</span>
+            </h2>
+            <ul>
+                <li>Grid View +</li>
+                <li>Kanban View -</li>
+                <li> Notes -</li>
+                <li>Tasks -</li>
+                <li>Global Search +</li>
+            </ul>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="pricing-plan">
+            <h2>Standard 
+                <span class="spani"> $69</span>
+            </h2>
+            <ul>
+                <li>Grid View +</li>
+                <li>Kanban View -</li>
+                <li> Notes +</li>
+                <li>Tasks +</li>
+                <li>Global Search +</li>
+            </ul>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="pricing-plan">
+            <h2>Premium 
+                <span class="spani"> $99</span>
+
+            </h2>
+            <ul>
+                <li>Grid View +</li>
+                <li>Kanban View +</li>
+                <li> Notes +</li>
+                <li>Tasks +</li>
+                <li>Global Search +</li>
+            </ul>
+            <button>Buy Now</button>
+        </div>
+    </div>
+</body>
+</html>
